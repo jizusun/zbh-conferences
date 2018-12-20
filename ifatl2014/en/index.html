@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="icse, icse nanjing, icse2012, icse2012nanjing"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IFATL2014，Xi'an</title>
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="https://cdn.bootcss.com/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.STYLE2 {font-size: 16px}
+.STYLE21 {font-style: italic; font-size: 16px;}
+-->
+</style>
+</head>
+<body>
+
+
+<!-- Copyright � 2005. Spidersoft Ltd --><!-- /Copyright � 2005. Spidersoft Ltd -->
+<!-- Save for Web Slices (index4.psd) -->
+<div id="container">
+  <div id="center">
+    <div id="nav">
+      <div id="nav_in">
+        <ul id="menu">
+          <li> <a href="index.html">Home</a>          </li>
+          <li> <a href="#">Committees</a>
+            <ul>
+              <li><a href="Committees/internationalcommittee.html">International Committee</a></li>
+              <li><a href="Committees/localcommittee.html">Local Committee</a></li>
+            </ul>
+          </li>
+          <li> <a href="invited speakers/invitedspeakers.html">Invited Speakers</a> </li>
+         
+            <li> <a href="Program/Program.html">Program</a></li>
+            <li> <a href="Call for Proposal/CallforProposal.html">Call for Proposal</a>
+          </li>
+            <li> <a href="#">Registration</a>
+              <ul>
+              <li><a href="Registration/regist.html">Register</a></li>
+              <li><a href="Registration/accommodation.html">Accommodation</a></li>
+          
+              <li><a href="Registration/travelinfo.html">Travel Information</a></li>
+            </ul>
+          </li>
+               <li> <a href="faq/faq.html">FAQ</a>
+          </li>
+            <li> <a href="contact us/contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    
+<style type="text/css">
+img{border:0;}
+</style>
+<SCRIPT type=text/javascript>
+function addEvent(obj,evtType,func,cap){
+    cap=cap||false;
+if(obj.addEventListener){
+     obj.addEventListener(evtType,func,cap);
+   return true;
+}else if(obj.attachEvent){
+        if(cap){
+         obj.setCapture();
+         return true;
+     }else{
+      return obj.attachEvent("on" + evtType,func);
+   }
+}else{
+   return false;
+    }
+}
+function getPageScroll(){
+    var xScroll,yScroll;
+if (self.pageXOffset) {
+   xScroll = self.pageXOffset;
+} else if (document.documentElement && document.documentElement.scrollLeft){
+   xScroll = document.documentElement.scrollLeft;
+} else if (document.body) {
+   xScroll = document.body.scrollLeft;
+}
+if (self.pageYOffset) {
+   yScroll = self.pageYOffset;
+} else if (document.documentElement && document.documentElement.scrollTop){
+   yScroll = document.documentElement.scrollTop;
+} else if (document.body) {
+   yScroll = document.body.scrollTop;
+}
+arrayPageScroll = new Array(xScroll,yScroll);
+return arrayPageScroll;
+}
+function GetPageSize(){
+    var xScroll, yScroll;
+    if (window.innerHeight && window.scrollMaxY) { 
+        xScroll = document.body.scrollWidth;
+        yScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        xScroll = document.body.scrollWidth;
+        yScroll = document.body.scrollHeight;
+    } else {
+        xScroll = document.body.offsetWidth;
+        yScroll = document.body.offsetHeight;
+    }
+    var windowWidth, windowHeight;
+    if (self.innerHeight) {
+        windowWidth = self.innerWidth;
+        windowHeight = self.innerHeight;
+    } else if (document.documentElement && document.documentElement.clientHeight) {
+        windowWidth = document.documentElement.clientWidth;
+        windowHeight = document.documentElement.clientHeight;
+    } else if (document.body) {
+        windowWidth = document.body.clientWidth;
+        windowHeight = document.body.clientHeight;
+    } 
+    if(yScroll < windowHeight){
+        pageHeight = windowHeight;
+    } else { 
+        pageHeight = yScroll;
+    }
+    if(xScroll < windowWidth){ 
+        pageWidth = windowWidth;
+    } else {
+        pageWidth = xScroll;
+    }
+    arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+    return arrayPageSize;
+}
+
+var AdMoveConfig=new Object();
+AdMoveConfig.IsInitialized=false;
+AdMoveConfig.ScrollX=0;
+AdMoveConfig.ScrollY=0;
+AdMoveConfig.MoveWidth=0;
+AdMoveConfig.MoveHeight=0;
+AdMoveConfig.Resize=function(){
+    var winsize=GetPageSize();
+    AdMoveConfig.MoveWidth=winsize[2];
+    AdMoveConfig.MoveHeight=winsize[3];
+    AdMoveConfig.Scroll();
+}
+AdMoveConfig.Scroll=function(){
+    var winscroll=getPageScroll();
+    AdMoveConfig.ScrollX=winscroll[0];
+    AdMoveConfig.ScrollY=winscroll[1];
+}
+addEvent(window,"resize",AdMoveConfig.Resize);
+addEvent(window,"scroll",AdMoveConfig.Scroll);
+function AdMove(id){
+    if(!AdMoveConfig.IsInitialized){
+        AdMoveConfig.Resize();
+        AdMoveConfig.IsInitialized=true;
+    }
+    var obj=document.getElementById(id);
+    obj.style.position="absolute";
+    var W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+    var H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+    var x = W*Math.random(),y = H*Math.random();
+    var rad=(Math.random()+1)*Math.PI/6;
+    var kx=Math.sin(rad),ky=Math.cos(rad);
+    var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1);
+    var step = 1;
+    var interval;
+    this.SetLocation=function(vx,vy){x=vx;y=vy;}
+    this.SetDirection=function(vx,vy){dirx=vx;diry=vy;}
+    obj.CustomMethod=function(){
+        obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+        obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+        rad=(Math.random()+1)*Math.PI/6;
+        W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+        H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+        x = x + step*kx*dirx;
+        if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);}
+        y = y + step*ky*diry;
+        if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);}
+    }
+    this.Run=function(){
+        var delay = 10;
+        interval=setInterval(obj.CustomMethod,delay);
+        obj.onmouseover=function(){clearInterval(interval);}
+        obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);}
+    }
+}
+</SCRIPT>
+<DIV id=ad1 style="Z-INDEX: 5">
+<!--漂浮开始-->
+<A href="material.html" ><IMG src="images/图标.gif" ></A>
+<!--漂浮结束-->
+</DIV>
+<SCRIPT type=text/javascript><!--
+        var ad1=new AdMove("ad1");
+        ad1.Run();
+	//多组漂浮
+	//var ad1=new AdMove("ad2");
+        //ad2.Run();
+    //-->
+</SCRIPT>
+    
+    
+ 
+    
+    
+    
+    
+    <script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#menu > li').bind('mouseover', jsddm_open);
+	$('#menu > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+</script>
+    <div id="top_pic"></div>
+    <div id="content">
+        	<div id="invitation">
+        	  <p align="left">The year 2014 is the 70th anniversary of  Shaanxi Normal University. During the period of celebration, the &ldquo;2014 International Forum on Assistive  Technology for Learning&rdquo; will  be held at Shaanxi Normal University, Xi&rsquo;an, China, on Nov. 21-22 ,2014.The conference  is co-organized by School of Education, Shaanxi Normal University and Nanyang  Technological University, Singapore. As the hosts, we sincerely invite new and old friends whose research is in the  special education and educational technology to come to this  historical city of Xi&rsquo;an for the academic exchange event.<br />
+        	    <strong>I. The Conference Theme</strong><br />
+        	    <strong>The themes:</strong> Technology support on the learning of  people with special needs <br />
+        	    As in some other countries, China is at a stage of deep integration phase of Information Technology and Education. Using technology to  explore new forms of teaching and improving information literacy of teachers  and students has become important part of educational reform. With the rapid  development of information technology, assistive technology in special  education has attracted more attention to the government.The conference aims  to enhance the learning of people with special needs through using educational  technology. We sincerely welcome scholars in educational technology and special  education from domestic and abroad communicate and share research experiences in assistive technology for learning.</p>
+              <p align="left"><strong>II. Main Foci</strong></p>
+              <p align="left">1.Laws  and regulation on assistive technology for learning</p>
+              <p align="left">2.Teacher  professional development on assistive technology for learning</p>
+              <p align="left">3.Research  on curriculum standards and learning evaluation standards on assistive technology  for learning.</p>
+              <p align="left">4.Research  on education, employment ,and career development of assistive technology for  learning</p>
+              <p align="left">5.Inclusive  education supported by assistive technology</p>
+              <p align="left">6.International  comparative studies of assistive technology for learning</p>
+              <p align="left"><strong>III.  Conference Organizers</strong><br />
+                Co-organizer: School of Education, Shaanxi Normal  University, China<br />
+                Co-organizer: Nanyang Technological University,  Singapore <br />
+                Conference Sponsor: ROBOTC (Xian) </p>
+              <p align="left"><strong>IV.  Conference Registration</strong><br />
+                Scholars who plan to join the conference need to fill  in the registration form below and send it to the conference e-mail before Oct.  20, 2014. The conference dates are Nov. 21-22, 2014, the time of on-site registration  is Nov.20, 2014.</p>
+              <p align="left"><strong>V. Conference participants</strong><br />
+                Representatives around the world are researchers of  special education and educational technology, educational policy makers, leaders  and teachers of special education schools and the like.<br />
+  <strong>International Organizing  Committee (To be updated):</strong><br />
+                Yiyu Cai, Associate Professor, Co- Chair, Nanyang  Technological University, Singapore<br />
+                Baohui Zhang, Professor, Co- Chair, Dean, School of  Education, Shaanxi Normal University, China</p>
+              <p align="left">Michael M. Behrmann, Professor, George Mason  University, USA<br />
+                John Castellani, Associate Professor, Johns Hopkins  University, USA<br />
+                Sui Lin Goei, Assistant Professor, Windesheim University  of Applied Sciences, the Netherlands<br />
+                Dr Walker Zachary，Institute  of Education, Nanyang Technological University, Singapore<br />
+                Noel Chia, Associate Professor, Institute of Education,  Nanyang Technological University, Singapore<br />
+                Junming Fang, Professor, East China Normal University,  China<br />
+                Chikang Yang, Professor, National Dong Hwa University,  Taiwan, China<br />
+                Jian Zheng, Professor, Chongqing Normal University,  China<br />
+                Wei Zhao, Professor, School of Education, Shaanxi  Normal University <br />
+                Jiacheng Xu, Professor, Special Education College. Beijing  Union University, China<br />
+                Gangshan Fu, Professor, School of Education, Shaanxi  Normal University, China<br />
+                Qiong Wang, Professor, Peking University, China<br />
+                Lin Chen, Professor, Jiangsu Normal University, China<br />
+                Junjie Shang, Associate Professor, Peking University, China</p>
+              <p align="left"><strong>Local Organizing Committee (To  be Updated):</strong><br />
+                Wenlan Zhang, Professor, Co- Chair, School of  Education, Shaanxi Normal University<br />
+                Miao Li, Associate Professor, Co- Chair, School of  Education, Shaanxi Normal University</p>
+              <p align="left"><strong>VI. Conference fees</strong></p>
+              <p align="left">1.The registration fee is 800 RMB per  person for international participants, which includes the fees of meals (from evening  of Nov. 20 to noon of Nov. 22), airport pick-up, venue rental, and partial  expenses for invited speakers. Graduate students' conference fees are half  price.</p>
+              <p align="left">2.The conference organizer has reserved  hotel rooms, but the expenses are of the meeting representatives&rsquo; own cost. </p>
+<p align="left"><strong>VII. Conference proceeding</strong></p>
+              <p align="left">Important deadlines:</p>
+              <p align="left">1.Conference  abstracts are due on Oct. 20, 2014. The deadline for  notification of acceptance is Oct. 30, 2014. The  deadline of full papers is Nov. 15, 2014.</p>
+              <p align="left">2.Please  fill and send the registration form below to <a href="mailto:IFATL2014@163.com">IFATL2014@163.com</a> before Oct. 20, 2014</p>
+              <p align="left">3.Submission  mailbox: IFATL2014@163.com</p>
+<p>Requirements for conference papers</p>
+<p>1.The  types of paper may include empirical research, conceptual analysis, poster  presentations, and exhibition. </p>
+<p>2.The  abstract should include the title, author name(s), organization, and e-mail  address. File name should be in the format of &ldquo;IFATL2014+abstract+organzation+name&rdquo;,  File name for full paper might be in the format of &ldquo;IFATL2014+full+organzation+name&rdquo;.</p>
+<p>3.Submissions should be unpublished  papers. Full paper format will be posted in our second announcement. </p>
+              <p align="left"><strong>VIII. Contact information</strong><br />
+                Dr. Miao Li (faculty member), Telephone:  13772024817.<br />
+                Mr. Fanshuai Bu (doctoral student), Telephone:  18840384597.<a href="mailto:IFATL2014@163.com"></a> <br />
+                Prof. Baohui Zhang, E-mail: baohui.zhang@snnu.edu.cn，Telephone：029-  85308047<br />
+              More details can be found from the conference website: <a href="http://www.zhangbaohui.net/ifatl2014/">http://www.zhangbaohui.net/ifatl2014/ </a></p>
+              <p align="center">International&nbsp;Forum&nbsp;on&nbsp;Assistive&nbsp;Technology&nbsp;for&nbsp;Learning </p>
+              <table border="1" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="114" valign="top"><p align="center">Name</p></td>
+                  <td width="114" valign="top"><p align="center">Sex</p></td>
+                  <td width="114" valign="top"><p align="center">Duty</p></td>
+                  <td width="114" valign="top"><p align="center">E-mail</p></td>
+                  <td width="114" valign="top"><p align="center">Telephone</p></td>
+                </tr>
+                <tr>
+                  <td width="114" valign="top"><p>&nbsp;</p></td>
+                  <td width="114" valign="top"><p>&nbsp;</p></td>
+                  <td width="114" valign="top"><p>&nbsp;</p></td>
+                  <td width="114" valign="top"><p>&nbsp;</p></td>
+                  <td width="114" valign="top"><p>&nbsp;</p></td>
+                </tr>
+                <tr>
+                  <td width="114" valign="top"><p align="center">Work Units</p></td>
+                  <td width="227" colspan="2" valign="top"><p align="center">&nbsp;</p></td>
+                  <td width="114" valign="top"><p align="center">Zip</p></td>
+                  <td width="114" valign="top"><p align="center">&nbsp;</p></td>
+                </tr>
+                <tr>
+                  <td width="341" colspan="3" valign="top"><p align="center">Need to    arrange accommodation?，Yes（）/No（） </p></td>
+                  <td width="227" colspan="2" valign="top"><p align="center">Accommodation    room types</p></td>
+                </tr>
+                <tr>
+                  <td width="114" valign="top"><p align="center">The day of 20</p></td>
+                  <td width="114" valign="top"><p align="center">The day of 21</p></td>
+                  <td width="114" valign="top"><p align="center">The day of 22</p></td>
+                  <td width="114" valign="top"><p align="center">Single</p></td>
+                  <td width="114" valign="top"><p align="center">Share </p></td>
+                </tr>
+                <tr>
+                  <td width="114" valign="top"><p align="center">&nbsp;</p></td>
+                  <td width="114" valign="top"><p align="center">&nbsp;</p></td>
+                  <td width="114" valign="top"><p align="center">&nbsp;</p></td>
+                  <td width="114" valign="top"><p align="center">&nbsp;</p></td>
+                  <td width="114" valign="top"><p align="center">&nbsp;</p></td>
+                </tr>
+                <tr>
+                  <td width="114" valign="top"><p align="center">Special food    requirement</p></td>
+                  <td width="114" valign="top"><p align="center">Yes ( )/No( )</p></td>
+                  <td width="341" colspan="3" valign="top"><p align="center">If yes, please    specify_____________________________________</p></td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+              <p><strong>&nbsp;<a href="images/2014 International Forum on Assistive Technology for Learning.doc" class="STYLE21">Download the“IFATL2014 First Announcement”</a></strong> </p>
+      </div>
+   	  <div id="content_right">
+              <div align="center">
+                <p><span id="lncs"><img src="images/email.jpg" width="337" height="119" border="0" usemap="#Map3"/>
+<map name="Map3" id="Map3"><area shape="rect" coords="39,49,296,76" href="mailto:ifatl2014@163.com" />
+</map></span></p>
+                
+                <p>                
+                <p><img src="images/lianjie.png" width="328" height="261" border="0" usemap="#Map2" />
+<map name="Map2" id="Map2"><area shape="rect" coords="1,26,330,95" href="http://www.snnu.edu.cn/" target="_blank" />
+<area shape="rect" coords="6,108,325,191" href="http://se.snnu.edu.cn/" target="_blank" />
+<area shape="rect" coords="3,196,327,261" href="http://edu.nju.edu.cn/zbh/" target="_blank" />
+</map>
+                
+                <p>
+              </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p class="footlink" align="left"><img src="images/foot.jpg" width="966" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="163,120,165,122" href="#" />
+</map></p>
+    </div>
+ </div>
+</div>
+
+<!-- End Save for Web Slices -->
+</body>
+</html>

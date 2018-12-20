@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="icse, icse Xi'an, IFATL2014, IFATL2014nanjing"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IFATL2014，Xi'an</title>
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="https://cdn.bootcss.com/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #0000CC;
+	font-weight: bold;
+}
+.STYLE2 {font-size: 16px}
+.STYLE3 {font-size: 16px; color: #990000; }
+-->
+</style>
+</head>
+<body>
+
+ 
+<SCRIPT type=text/javascript>
+function addEvent(obj,evtType,func,cap){
+    cap=cap||false;
+if(obj.addEventListener){
+     obj.addEventListener(evtType,func,cap);
+   return true;
+}else if(obj.attachEvent){
+        if(cap){
+         obj.setCapture();
+         return true;
+     }else{
+      return obj.attachEvent("on" + evtType,func);
+   }
+}else{
+   return false;
+    }
+}
+function getPageScroll(){
+    var xScroll,yScroll;
+if (self.pageXOffset) {
+   xScroll = self.pageXOffset;
+} else if (document.documentElement && document.documentElement.scrollLeft){
+   xScroll = document.documentElement.scrollLeft;
+} else if (document.body) {
+   xScroll = document.body.scrollLeft;
+}
+if (self.pageYOffset) {
+   yScroll = self.pageYOffset;
+} else if (document.documentElement && document.documentElement.scrollTop){
+   yScroll = document.documentElement.scrollTop;
+} else if (document.body) {
+   yScroll = document.body.scrollTop;
+}
+arrayPageScroll = new Array(xScroll,yScroll);
+return arrayPageScroll;
+}
+function GetPageSize(){
+    var xScroll, yScroll;
+    if (window.innerHeight && window.scrollMaxY) { 
+        xScroll = document.body.scrollWidth;
+        yScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        xScroll = document.body.scrollWidth;
+        yScroll = document.body.scrollHeight;
+    } else {
+        xScroll = document.body.offsetWidth;
+        yScroll = document.body.offsetHeight;
+    }
+    var windowWidth, windowHeight;
+    if (self.innerHeight) {
+        windowWidth = self.innerWidth;
+        windowHeight = self.innerHeight;
+    } else if (document.documentElement && document.documentElement.clientHeight) {
+        windowWidth = document.documentElement.clientWidth;
+        windowHeight = document.documentElement.clientHeight;
+    } else if (document.body) {
+        windowWidth = document.body.clientWidth;
+        windowHeight = document.body.clientHeight;
+    } 
+    if(yScroll < windowHeight){
+        pageHeight = windowHeight;
+    } else { 
+        pageHeight = yScroll;
+    }
+    if(xScroll < windowWidth){ 
+        pageWidth = windowWidth;
+    } else {
+        pageWidth = xScroll;
+    }
+    arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+    return arrayPageSize;
+}
+
+var AdMoveConfig=new Object();
+AdMoveConfig.IsInitialized=false;
+AdMoveConfig.ScrollX=0;
+AdMoveConfig.ScrollY=0;
+AdMoveConfig.MoveWidth=0;
+AdMoveConfig.MoveHeight=0;
+AdMoveConfig.Resize=function(){
+    var winsize=GetPageSize();
+    AdMoveConfig.MoveWidth=winsize[2];
+    AdMoveConfig.MoveHeight=winsize[3];
+    AdMoveConfig.Scroll();
+}
+AdMoveConfig.Scroll=function(){
+    var winscroll=getPageScroll();
+    AdMoveConfig.ScrollX=winscroll[0];
+    AdMoveConfig.ScrollY=winscroll[1];
+}
+addEvent(window,"resize",AdMoveConfig.Resize);
+addEvent(window,"scroll",AdMoveConfig.Scroll);
+function AdMove(id){
+    if(!AdMoveConfig.IsInitialized){
+        AdMoveConfig.Resize();
+        AdMoveConfig.IsInitialized=true;
+    }
+    var obj=document.getElementById(id);
+    obj.style.position="absolute";
+    var W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+    var H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+    var x = W*Math.random(),y = H*Math.random();
+    var rad=(Math.random()+1)*Math.PI/6;
+    var kx=Math.sin(rad),ky=Math.cos(rad);
+    var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1);
+    var step = 1;
+    var interval;
+    this.SetLocation=function(vx,vy){x=vx;y=vy;}
+    this.SetDirection=function(vx,vy){dirx=vx;diry=vy;}
+    obj.CustomMethod=function(){
+        obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+        obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+        rad=(Math.random()+1)*Math.PI/6;
+        W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+        H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+        x = x + step*kx*dirx;
+        if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);}
+        y = y + step*ky*diry;
+        if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);}
+    }
+    this.Run=function(){
+        var delay = 10;
+        interval=setInterval(obj.CustomMethod,delay);
+        obj.onmouseover=function(){clearInterval(interval);}
+        obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);}
+    }
+}
+</SCRIPT>
+<DIV id=ad1 style="Z-INDEX: 5">
+<!--漂浮开始-->
+<!--漂浮结束-->
+</DIV>
+<SCRIPT type=text/javascript><!--
+        var ad1=new AdMove("ad1");
+        ad1.Run();
+	//多组漂浮
+	//var ad1=new AdMove("ad2");
+        //ad2.Run();
+    //-->
+</SCRIPT>
+    
+<!-- Copyright � 2005. Spidersoft Ltd --><!-- /Copyright � 2005. Spidersoft Ltd -->
+<!-- Save for Web Slices (index4.psd) -->
+<div id="container">
+  <div id="center">
+    <div id="nav">
+      <div id="nav_in">
+        <ul id="menu">
+          <li> <a href="index.html">首页</a>          </li>
+          <li> <a href="#">组委会</a>
+            <ul>
+              <li><a href="Committees/internationalcommittee.html">国际组委会</a></li>
+              <li><a href="Committees/localcommittee.html">地方组委会</a></li>
+            </ul>
+          </li>
+          <li> <a href="invited speakers/invitedspeakers.html">邀请报告</a> </li>
+     
+            <li> <a href="Program/Program.html">会议议程</a></li>
+             <li> <a href="report/report.html">会议报道</a></li>
+            <li> <a href="Call for Proposal/CallforProposal.html">论文征集</a>
+          </li>
+            <li> <a href="#">会议注册</a>
+              <ul>
+              <li><a href="Registration/regist.html">注册报到</a></li>
+              <li><a href="Registration/accommodation.html">住宿情况</a></li>
+              <li><a href="Registration/traffic.html">交通导航</a></li>
+              <li><a href="Registration/travelinfo.html">旅行信息</a></li>
+            </ul>
+          </li>
+            <li> <a href="faq/faq.html">常见问题</a>
+          </li>
+            <li> <a href="contact us/contactus.html">联系我们</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#menu > li').bind('mouseover', jsddm_open);
+	$('#menu > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+</script>
+    <div id="top_pic"></div>
+    <div id="content">
+        	<div id="invitation">
+        	  <p>正值陕西师范大学庆祝建校70周年的喜庆日子，“无障碍技术（Assistive  Technology)支持的学习研究国际论坛”，将于2014年11月21-22日在中国陕西师范大学(西安)举行。本次会议由陕西师范大学教育学院和新加坡南洋理工大学联合举办。作为承办单位，陕西师范大学诚挚邀请并欢迎特殊教育、教育技术领域的新老朋友共赴古都西安出席这一学术活动。 </p>
+        	  <p>一、<strong>会议主题</strong><strong> </strong></p>
+              <p><strong>本次会议的主题</strong>：信息化背景下特殊需要人群的学习支持 <br />
+                我国现阶段已经进入了信息技术与教育深度融合阶段，利用技术手段探索新的教学形式，提高师生的信息素养，已成为我国教育教学改革与发展的重要组成部分。在信息技术快速发展的形势下，特殊教育信息化已经引起了政府部门的更多关注。本次会议旨在提升特殊需要人群的学习能力，并期望以此推进我国特殊教育和教育技术的理论研究与实践发展。欢迎来自海内外的特殊教育学者、教育技术学者互相沟通各领域的研究经验与面临的挑战，加强对话与合作，争取为特殊需要人群，尤其是学习者，提供更大的服务与支持。 </p>
+             
+                <p><strong>二、大会议题</strong></p>
+                 <ol>
+                <li>无障碍技术支持下的特殊教育相关的法律、法规建设 </li>
+              
+                <li>无障碍技术支持下的特殊教育的师资建设 </li>
+                <li>无障碍技术支持下的特殊教育的课程标准、学习评价标准研究 </li>
+                <li>无障碍技术支持下特殊人群教育及就业和职业发展研究 </li>
+                <li>无障碍学习技术支持下的全纳教育<strong> </strong></li>
+                <li>无障碍学习技术的国际比较研究等</li>
+                </ol>
+                <p><strong>三、会议举办单位</strong></p>
+             
+              <p>主办单位：陕西师范大学教育学院；合办单位：新加坡南洋理工大学 <br />
+                会议赞助单位：西安乐博士机器人有限公司 <br />
+  <strong>四、会议报名</strong><strong> </strong><br />
+                欲参加本次会议的学者请填写后附的报名回执，并在2014年10月20日前发送至会议的电子邮箱。本次会议时间为2014年11月21—22日，11月20日报到。 <br />
+                <strong>五、会议代表与邀请报告人</strong><strong> </strong><br />
+                世界各国的特殊教育研究者、教育技术研究者、教育政策制定者、特殊教育学校的领导与老师等。 <br />
+  <strong>会议国际组委会委员</strong>（持续更新中）： <br />
+                蔡奕渔（Yiyu  Cai）副教授，合作主席，南洋理工大学，新加坡 <br />
+                张宝辉教授，             合作主席，陕西师范大学教育学院院长，中国 <br />
+                麦克·贝尔曼教授，（Michael M. Behrmann）, 乔治梅森大学，美国 <br />
+                约翰·卡斯特莱纳（John Castellani）教授，约翰·霍普金斯大学，美国 <br />
+                魏水莲（Sui Lin Goei）, 助理教授，温德斯海姆大学，荷兰 <br />
+                Dr Walker Zachary，南洋理工大学国立教育学院，新加坡 <br />
+                谢国辉（Noel Chia）副教授, 南洋理工大学国立教育学院，新加坡 <br />
+                方俊明教授，华东师范大学，中国特殊教育学会学术委员会主任，中国 <br />
+                许家成教授，北京联合大学特殊教育学院，中国 <br />
+                杨炽康教授，国立东华大学，中国台湾 <br />
+                郑俭教授，重庆师范大学，中国 <br />
+                赵微教授，陕西师范大学教育学院 <br />
+                范里，校长，苏州工业园区仁爱特殊学校，中国 <br />
+                盛永进教授，南京特殊教育学院特教研究所所长，中国 <br />
+                傅钢善教授，国家级教学名师，陕西师范大学教育学院，中国 <br />
+                汪琼教授，北京大学，中国 <br />
+                陈琳教授，江苏师范大学，中国 <br />
+                尚俊杰副教授， 北京大学，中国 <br />
+  <strong>会议地方组委会委员</strong>（持续更新中）： <br />
+                张文兰教授, 合作主席，陕西师范大学教育学院 <br />
+                李苗副教授，合作主席，陕西师范大学教育学院 </p>
+              <p><strong>六、会议经费</strong><strong> </strong><br />
+1.差旅食宿安排：会议代表往返差旅费、住宿费用自理(会议帮助安排住宿）。 <br />
+2.会务费：会务费每人600元，主要用于会议期间的餐费、资料费、会场租赁费以及部分专家报告费等。研究生（凭学生证）会务费减半，即每人300元。届时将由学校财务处开据正式发票，以便报销。 <br />
+<strong>七、会议征文</strong><strong> </strong><br />
+1. 会议关键时间节点及联络信息： <br />
+（1）会议论文摘要的截止日期为2014年10月20日，摘要录用通知日期为2014年10月30日，论文全文截止时间为2014年11月15日。 <br />
+（2）提交邮箱： IFATL2014@163.com<br />
+2. 提交论文要求 <br />
+（1）论文类型可以包括实证研究、概念分析、海报展示及作品展示等。 <br />
+（2）摘要应包括标题、作者姓名、单位及电子邮箱，按照“IFATL2014+摘要+单位+姓名”的格式进行命名。论文全文按照“IFATL2014+全文+单位+姓名”的格式进行命名 <br />
+（3）必须提交未公开发表过的论文。 <br />
+<strong>八、会议筹备组及联系方式</strong><strong> </strong><br />
+会议联络人：</p>
+              <p>李苗老师，  电话：13772024817，E-mail: IFATL2014@163.com<br />
+                卜凡帅同学，电话：18840384598，E-mail:  IFATL2014@163.com<br />
+                总负责人：张宝辉，E-mail: baohui.zhang@snnu.edu. cn</p>            
+              <p>电 话：029-  85308047 </p>
+   	  </div>
+<div id="content_right">
+              <div align="center">
+                <p><span id="lncs"><img src="images/email.jpg" width="337" height="119" border="0" usemap="#Map3"/>
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="59,51,288,76" href=" IFATL2014@163.com" />
+</map></span></p>
+                
+                <p>                
+                <p><img src="images/lianjie.png" width="328" height="261" border="0" usemap="#Map2" />
+<map name="Map2" id="Map2"><area shape="rect" coords="1,26,330,95" href="http://70.snnu.edu.cn/" target="_blank" />
+<area shape="rect" coords="6,108,325,191" href="se.snnu.edu.cn" target="_blank" />
+<area shape="rect" coords="3,196,327,261" href="http://www.zhangbaohui.net" target="_blank" />
+</map>
+                
+                <p>
+              </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p class="footlink" align="left"><img src="images/foot.jpg" width="860" border="0" usemap="#Map" />
+        <map name="Map" id="Map">
+          <area shape="rect" coords="163,60,165,61" href="#" />
+        </map>
+      </p>
+    </div>
+ </div>
+</div>
+
+<!-- End Save for Web Slices -->
+</body>
+</html>

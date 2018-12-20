@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="icse, icse nanjing, icse2012, icse2012nanjing"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ICSE2012，Nanjing</title>
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="https://cdn.bootcss.com/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.STYLE2 {font-size: 16px}
+-->
+</style>
+</head>
+<body>
+
+
+<!-- Copyright � 2005. Spidersoft Ltd --><!-- /Copyright � 2005. Spidersoft Ltd -->
+<!-- Save for Web Slices (index4.psd) -->
+<div id="container">
+  <div id="center">
+    <div id="nav">
+      <div id="nav_in">
+        <ul id="menu">
+          <li> <a href="index.html">Home</a>          </li>
+          <li> <a href="#">Committees</a>
+            <ul>
+              <li><a href="Committees/internationalcommittee.html">International Committee</a></li>
+              <li><a href="Committees/localcommittee.html">Local Committee</a></li>
+            </ul>
+          </li>
+          <li> <a href="invited speakers/invitedspeakers.html">Invited Speakers</a> </li>
+         
+            <li> <a href="Program/Program.html">Program</a></li>
+            <li> <a href="Call for Proposal/CallforProposal.html">Call for Proposal</a>
+          </li>
+            <li> <a href="#">Registration</a>
+              <ul>
+              <li><a href="Registration/regist.html">Register</a></li>
+              <li><a href="Registration/accommodation.html">Accommodation</a></li>
+          
+              <li><a href="Registration/travelinfo.html">Travel Information</a></li>
+            </ul>
+          </li>
+               <li> <a href="faq/faq.html">FAQ</a>
+          </li>
+            <li> <a href="contact us/contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    
+<style type="text/css">
+img{border:0;}
+</style>
+<SCRIPT type=text/javascript>
+function addEvent(obj,evtType,func,cap){
+    cap=cap||false;
+if(obj.addEventListener){
+     obj.addEventListener(evtType,func,cap);
+   return true;
+}else if(obj.attachEvent){
+        if(cap){
+         obj.setCapture();
+         return true;
+     }else{
+      return obj.attachEvent("on" + evtType,func);
+   }
+}else{
+   return false;
+    }
+}
+function getPageScroll(){
+    var xScroll,yScroll;
+if (self.pageXOffset) {
+   xScroll = self.pageXOffset;
+} else if (document.documentElement && document.documentElement.scrollLeft){
+   xScroll = document.documentElement.scrollLeft;
+} else if (document.body) {
+   xScroll = document.body.scrollLeft;
+}
+if (self.pageYOffset) {
+   yScroll = self.pageYOffset;
+} else if (document.documentElement && document.documentElement.scrollTop){
+   yScroll = document.documentElement.scrollTop;
+} else if (document.body) {
+   yScroll = document.body.scrollTop;
+}
+arrayPageScroll = new Array(xScroll,yScroll);
+return arrayPageScroll;
+}
+function GetPageSize(){
+    var xScroll, yScroll;
+    if (window.innerHeight && window.scrollMaxY) { 
+        xScroll = document.body.scrollWidth;
+        yScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        xScroll = document.body.scrollWidth;
+        yScroll = document.body.scrollHeight;
+    } else {
+        xScroll = document.body.offsetWidth;
+        yScroll = document.body.offsetHeight;
+    }
+    var windowWidth, windowHeight;
+    if (self.innerHeight) {
+        windowWidth = self.innerWidth;
+        windowHeight = self.innerHeight;
+    } else if (document.documentElement && document.documentElement.clientHeight) {
+        windowWidth = document.documentElement.clientWidth;
+        windowHeight = document.documentElement.clientHeight;
+    } else if (document.body) {
+        windowWidth = document.body.clientWidth;
+        windowHeight = document.body.clientHeight;
+    } 
+    if(yScroll < windowHeight){
+        pageHeight = windowHeight;
+    } else { 
+        pageHeight = yScroll;
+    }
+    if(xScroll < windowWidth){ 
+        pageWidth = windowWidth;
+    } else {
+        pageWidth = xScroll;
+    }
+    arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+    return arrayPageSize;
+}
+
+var AdMoveConfig=new Object();
+AdMoveConfig.IsInitialized=false;
+AdMoveConfig.ScrollX=0;
+AdMoveConfig.ScrollY=0;
+AdMoveConfig.MoveWidth=0;
+AdMoveConfig.MoveHeight=0;
+AdMoveConfig.Resize=function(){
+    var winsize=GetPageSize();
+    AdMoveConfig.MoveWidth=winsize[2];
+    AdMoveConfig.MoveHeight=winsize[3];
+    AdMoveConfig.Scroll();
+}
+AdMoveConfig.Scroll=function(){
+    var winscroll=getPageScroll();
+    AdMoveConfig.ScrollX=winscroll[0];
+    AdMoveConfig.ScrollY=winscroll[1];
+}
+addEvent(window,"resize",AdMoveConfig.Resize);
+addEvent(window,"scroll",AdMoveConfig.Scroll);
+function AdMove(id){
+    if(!AdMoveConfig.IsInitialized){
+        AdMoveConfig.Resize();
+        AdMoveConfig.IsInitialized=true;
+    }
+    var obj=document.getElementById(id);
+    obj.style.position="absolute";
+    var W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+    var H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+    var x = W*Math.random(),y = H*Math.random();
+    var rad=(Math.random()+1)*Math.PI/6;
+    var kx=Math.sin(rad),ky=Math.cos(rad);
+    var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1);
+    var step = 1;
+    var interval;
+    this.SetLocation=function(vx,vy){x=vx;y=vy;}
+    this.SetDirection=function(vx,vy){dirx=vx;diry=vy;}
+    obj.CustomMethod=function(){
+        obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+        obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+        rad=(Math.random()+1)*Math.PI/6;
+        W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+        H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+        x = x + step*kx*dirx;
+        if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);}
+        y = y + step*ky*diry;
+        if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);}
+    }
+    this.Run=function(){
+        var delay = 10;
+        interval=setInterval(obj.CustomMethod,delay);
+        obj.onmouseover=function(){clearInterval(interval);}
+        obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);}
+    }
+}
+</SCRIPT>
+<DIV id=ad1 style="Z-INDEX: 5">
+<!--漂浮开始-->
+<A href="material.html" ><IMG src="images/111.jpg" ></A>
+<!--漂浮结束-->
+</DIV>
+<SCRIPT type=text/javascript><!--
+        var ad1=new AdMove("ad1");
+        ad1.Run();
+	//多组漂浮
+	//var ad1=new AdMove("ad2");
+        //ad2.Run();
+    //-->
+</SCRIPT>
+    
+    
+ 
+    
+    
+    
+    
+    <script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#menu > li').bind('mouseover', jsddm_open);
+	$('#menu > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+</script>
+    <div id="top_pic"></div>
+    <div id="content">
+        	<div id="invitation">
+            <p><strong>International Conference on Science Education 2012</strong> will be held in Nanjing University from Oct. 12-15, 2012.</p>
+            <p>&nbsp;</p>
+            <p>It  is our greatest pleasure to welcome you to the International Conference on Science Education  2012 (Nanjing, China) Conference. The  ICSE2012 conference is co-organized by the National Association for Science  Education the Chinese Society of Education (CNASE) and the Institute of  Education of Nanjing University. </p>
+            <p><br />
+              At  the age of globalization, different countries have paid more attention to learn  from each other to develop human talents in science and technology as well as  improve citizen’s scientific literacy. Because of differences in culture and  tradition between the western and eastern worlds, there have been many  challenges when implementing the heavily western influenced science education  theories and practices in China and other Asian countries with Confucian  culture tradition. This also leads to reflection of western science education  tradition. We hope the ICSE2012 (Nanjing) conference can be a good platform for  international science education scholars to share their ideas, experiences,  strategies to address science education challenges; further, we hope through  academic exchange we can foster the development of new ideas with eastern  cultural flavor to contribute a unique perspective to the advancement of  international science education research to inform both theories and practices. </p>
+            <p><br />
+              Science  education research is vital in the development of national science education  policies, including standards, teacher professional development and public  understanding of science. Science education researchers study the quality,  feasibility, and alignment of standards at different levels with regard to  curriculum materials, assessment practices, and science teacher certification  requirements; they also seek ways to bridge formal and informal science  education. Science education research thus affects a nation’s ability to  fulfill its social responsibilities. Therefore, the ICSE 2012 conference welcomes  science education researchers from around the world to exchange experiences,  challenges, and strategies in science education research around the above  stated areas. These are around a common theme of ‘Science Education:  Policies and Social Responsibilities’. </p>
+            <p>&nbsp;</p>
+            <p align="left"><img src="images/a1.jpg" width="500" height="139" /></p>
+            <p align="left"> Professors Shujin Peng and Xiufeng Liu </p>
+            <p align="left">Co-Chairs, ICSE2012 International Organizing Committee </p>
+            <p align="left">Professors Hongshia Zhang and Baohui Zhang </p>
+            <p align="left">Co-Chairs, ICSE2012 Local Organizing Committee </p>
+            <p>&nbsp;</p>
+            <p> <a href="Call for Proposal/CallforProposal.html" class="STYLE1"></a></p>
+            <p>&nbsp;</p>
+
+
+
+
+<p class="STYLE1"><a href="images/ICSE2012ContactList.pdf" class="views STYLE2">2012ICSE-ContactList</a></p>
+
+<p class="STYLE1"><a href="images/秩序册（英文)定稿.docx" class="views STYLE2">2012ICSE-Conference Program</a></p>
+
+<p class="STYLE1"><a href="images/Collection of Conference Papers' Abstracts Vol.2 English Papers' Abstracts.docx" class="views STYLE2">Collection of Conference Papers' Abstracts Vol.2 English Papers</a></p>
+<p class="STYLE1"><a href="images/Collection of Conference Papers' Abstracts Vol.1 Chinese Papers' Abstracts .docx" class="views STYLE2">Collection of Conference Papers' Abstracts Vol.1 Chinese Papers' Abstracts</a></p>
+<p class="STYLE1"><a href="images/ICSE2012(Nanjing)Call forPanelDiscussionProposals（20120930）.doc">Download the “  Call for Panel Discussion ”;</a></p>
+<p class="STYLE1"><a href="images/ICSE2012(Nanjing)CallforWorkshopProposals.doc">Download the “  Call for Workshop ”;</a></p>
+            <p class="STYLE1"><a href="images/CONFERENCE ANNOUNCEMENT AND CALL FOR PROPOSALS.pdf">Download the “  Call for proposals  ”;</a></p>
+            <p><a href="images/ICSE2012Flyer.pdf" class="views STYLE2">Download the &quot;Conference Flyer&quot;.</a></p>
+            <p><a href="images/1_ICSE2012_Registration Form for Participants.doc" class="STYLE1">Download the“ICSE2012_Registration Form for Participant”</a></p>
+            <p align="left" class="STYLE1"><a href="images/2_ICSE2012 AuthorTemplateforEnglishPaper Submission.doc">Download the&quot;ICSE2012 AuthorTemplateforEnglishPaper Submission&quot;</a></p>
+            <p align="left" class="STYLE1"><a href="images/3_GT Contributor - Consent to Publish.doc">Download the &quot;GT Contributor - Consent to Publish&quot;</a></p>
+   	  </div>
+<div id="content_right">
+              <div align="center">
+                <p><span><img src="images/ICHL.jpg" width="339" height="91" /></span><span id="lncs"><img src="images/email.jpg" width="337" height="119" border="0" usemap="#Map3"/>
+<map name="Map3" id="Map3"><area shape="rect" coords="39,49,296,76" href="mailto:icse2012nanjingchina@gamil.com" />
+<area shape="rect" coords="80,82,265,106" href="mailto:icse2012nanjing@163.com" />
+</map></span></p>
+                
+                <p>                
+                <p><img src="images/lianjie.png" width="328" height="261" border="0" usemap="#Map2" />
+<map name="Map2" id="Map2"><area shape="rect" coords="1,26,330,95" href="http://nju110.nju.edu.cn/index.php" target="_blank" />
+<area shape="rect" coords="6,108,325,191" href="http://202.119.37.10/" target="_blank" />
+<area shape="rect" coords="3,196,327,261" href="http://edu.nju.edu.cn/zbh/" target="_blank" />
+</map>
+                
+                <p>
+              </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p class="footlink" align="left"><img src="images/foot.jpg" width="860" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="456,103,779,137" href="http://www.risechina.org/" target="_blank" />
+<area shape="rect" coords="460,65,805,93" href="http://www.snnu.edu.cn/" target="_blank" />
+<area shape="rect" coords="678,23,833,58" href="http://www.crsp.org.cn/" target="_blank" />
+<area shape="rect" coords="459,20,665,55" href="http://www.chem.bnu.edu.cn/" target="_blank" />
+<area shape="rect" coords="211,20,419,66" href="http://www.nju.edu.cn" target="_blank" />
+<area shape="rect" coords="17,19,174,64" href="http://www.cnase.org/" target="_blank" />
+<area shape="rect" coords="163,120,165,122" href="#" />
+<area shape="rect" coords="23,103,260,125" href="http://www.llongwill.com/" />
+</map></p>
+    </div>
+ </div>
+</div>
+
+<!-- End Save for Web Slices -->
+</body>
+</html>

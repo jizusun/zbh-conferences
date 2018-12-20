@@ -1,0 +1,55 @@
+ body {
+     /*background-image: url("../img/bei.jpg");*/
+     background-color: #F8F8F6;
+ }
+ .main {
+     background-image: url("../img/bkg_w800.jpg");
+     width: 800px;
+     height: 526px;
+     margin: 40px auto;
+     color: #EEF0EF;
+ }
+ .top {
+     padding: 20px 0 0 50px;
+ }
+ .abbr {
+     font-size: 3.2em;
+     font-weight: bold;
+ }
+ .location {
+     font-size: 1.3em;
+     padding: 5px 0 0 20px;
+ }
+ .abbr,
+ .location {
+     float: left;
+ }
+ .middle {
+     margin: 40px auto;
+     width: 670px;
+     text-align: center;
+ }
+ .middle h1 {
+     font-weight: bold;
+ }
+ .middle h1.en {
+     font-size: 1.7em;
+     margin: 0px;
+ }
+ .bottom {
+     margin: 5% 0px 0px 50%;
+     text-align: center;
+     width: 220px;
+ }
+ .bottom p {
+     margin: 0px;
+     font-size: 1.3em;
+ }
+ .bottom ul {
+     margin-left: 4%;
+     margin-top: 5%;
+ }
+ .bottom a {
+     font-size: 1.5em;
+     font-weight: bold;
+ }
