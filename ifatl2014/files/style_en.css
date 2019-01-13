@@ -2,12 +2,9 @@
 /* CSS Document */
 
 *{margin: 0 auto; padding:0px;}
-body{	background:url(./bg.jpg) repeat;}
+body{	background:url(../images/bg.jpg) repeat;}
 a:hover,a:active,a:visited,a:link { color:#000;}
-a:focus{
-	outline:none;
-	font-size: 14px;
-}
+a:focus{ outline:none;}
 
 #container{
 	width:1003px;
@@ -54,7 +51,7 @@ a:focus{
 }
 
 #content_right {
-	height: 426px;
+	height: auto;
 	width: 340px;
 	margin-top:33px;
 	margin-right:12px;
@@ -72,6 +69,7 @@ a:focus{
 	width:515px;
 	height:auto;
 	margin-top: 15px;
+	background:url(../images/invitation.jpg);
 	margin-left: 14px !important;
 	margin-left:14px;
 	padding-left: 12px;
@@ -107,20 +105,13 @@ a:focus{
 	float: left;
 	height: 226px;
 	width: 965px;
-	background:url(./top_pic.jpg);
-}
-
-#top_pic_en {
-	float: left;
-	height: 226px;
-	width: 965px;
-	background:url(./top_pic_en.jpg);
+	background:url(../images/top_pic.jpg);
 }
 
 #nav {
 	width:965px;
 	height:42px;
-	background:url(./top.jpg) repeat-x;
+	background:url(../images/top.jpg) repeat-x;
 	padding-top:37px;
 }
 #nav #nav_in {
@@ -150,9 +141,9 @@ a:focus{
 	white-space: nowrap;
 	color:#000;
 	line-height: 42px;
-	background-image: url(./nav_bg.jpg);
-	margin-top: 2px;
-	margin-right: auto;
+	background-image: url(../images/nav_bg.jpg);
+	margin-top: 0;
+	margin-right: 2px;
 	margin-bottom: 0;
 	margin-left: 2px;
 	padding-top: 0;
@@ -160,10 +151,10 @@ a:focus{
 	padding-bottom: 0;
 	padding-left: 15px;
 }
-#menu li:hover>a {background-image: url(./nav_bg.jpg);
+#menu li:hover>a {background-image: url(../images/nav_bg.jpg);
 	background-position:left 42px;}
 #menu li a:hover {
-	background-image: url(./nav_bg.jpg);
+	background-image: url(../images/nav_bg.jpg);
 	background-position:left 42px;
 }
 #menu li ul {
@@ -208,7 +199,7 @@ a:focus{
 #email {
 	height: 68px;
 	width: 250px;
-	background:url(./email.jpg);
+	background:url(../images/email.jpg);
 	display: block;
 	margin-top: 16px;
 	padding-left: 84px;
@@ -270,7 +261,7 @@ a:focus{
 }
 #content_right1 .edit ul li {
 	display: block;
-	background-image: url(./edit_bg.jpg);
+	background-image: url(../images/edit_bg.jpg);
 	background-repeat: repeat-x;
 	height: 27px;
 	width:210px;
