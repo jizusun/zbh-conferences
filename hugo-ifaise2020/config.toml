@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = ""
+  favicon = "images/favicon.ico"
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
@@ -52,3 +52,5 @@ defaultContentLanguageInSubdir = true
   background_color_class = "bg-black"
   featured_image = "/images/banner.jpg"
   recent_posts_number = 2
+
+# http://202.117.144.156:8080/system/_owners/zhangbaohui/_webprj/ifaise2020/index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1186
