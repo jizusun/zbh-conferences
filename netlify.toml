@@ -5,7 +5,7 @@
 [build]
 base = "hugo-ifaise2020/"
 publish = "public/"
-command = "hugo --gc -b $URL "
+command = "hugo --gc -b ifaise2020.edtechstar.com "
 
 
 [context.production.environment]
