@@ -5,7 +5,7 @@
 [build]
 base = "hugo-ifaise2020/"
 publish = "public/"
-command = "hugo --gc "
+command = "hugo --gc -b $URL "
 
 
 [context.production.environment]

@@ -1,5 +1,5 @@
 title = "IFAISE2020"
-baseURL = "https://example.com"
+baseURL = "http://zhangbaohui.snnu.edu.cn/ifaise2020"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 
