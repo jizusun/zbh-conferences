@@ -1,6 +1,6 @@
 ---
 title: "人工智能与STEM教育线上国际研讨会（IFAISE2020）"
-featured_image: "/images/gohugo-default-sample-hero-image.jpg"
+featured_image: "/images/banner.jpg"
 description: "中国西安, 2020年12月26日"
 ---
 

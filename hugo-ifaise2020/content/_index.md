@@ -1,6 +1,6 @@
 ---
 title: "The International Forum of Artificial Intelligence and STEM Education Online (IFAISE2020)"
-featured_image: "/images/gohugo-default-sample-hero-image.jpg"
+featured_image: "/images/banner.jpg"
 description: "Xi'an China, Dec 26, 2020"
 ---
 
@@ -50,29 +50,35 @@ Artificial intelligence integrates a series of advanced technologies, and brings
 2. Please fill and send the registration form below to IFAISE2020@163.com before Dec. 20, 2020.
 3. Submission mailbox: IFAISE2020@163.com
 
-Requirements for conference papers
-1.The abstract should include the title, author name(s), organization, and e-mail address. File name should be in the format of “IFAISE2020+abstract+organzation+name”, File name for full paper might be in the format of “IFAISE2020+full+organzation+name”.
-2.Submissions should be unpublished papers.
+### Requirements for conference papers
 
-5. Conference participants
-   Representatives around the world are researchers of Artificial Intelligence and STEM Education, educational policy makers,and teachers of relevant fields and the like.
-   International Organizing Committee (To be updated):
+1. The abstract should include the title, author name(s), organization, and e-mail address. File name should be in the format of `IFAISE2020+abstract+organzation+name`, File name for full paper might be in the format of `IFAISE2020+full+organzation+name`.
 
-Co-chair:
-Yiyu Cai, Associate Professor, Nanyang Technological University, Singapore
-Baohui Zhang, Professor, Dean, School of Education, Shaanxi Normal University, China
-Jianzhong Zhou, Director, Science Popularization and Education Research Support Center, Chinese Academy of Sciences,China
-Manabu Sumida, Professor,Secretary General of Japan Science Education Association, Japan
-Haiguang Fang, Professor, Capital Normal University, China
-Jinbao Zhang,, Associate Professor, Beijing Normal University, China
+2. Submissions should be unpublished papers.
 
-6. Conference Registration
-   Due to the impact of the epidemic, this conference will be conducted online. If you are interested in attending the conference, please fill in the registration information. For mre detailed information about how to participant, please visit the website and Wechat public account of College of Education, Shaanxi Normal University.
+## 5. Conference participants
 
-7. Contact information
-   Dr. Aslam：15667033013;E-mail: sarfrazaslam@qq.com
-   Mr. Pan Tuo (doctoral student):15686756860，E-mail: tuopan031@126.com
-   Miss Jingjie Liu(Master student):17865329748，E-mail: 1370895697@qq.com
-   Miss Shuzhen Yu:15901601057，E-mail:yushuzhen0721@163.com
-   Prof. Baohui Zhang:E-mail: baohui.zhang@snnu.edu.cn
-   Submission and consult mailbox: IFAISE2020@163.com
+Representatives around the world are researchers of Artificial Intelligence and STEM Education, educational policy makers,and teachers of relevant fields and the like.
+   
+International Organizing Committee (To be updated):
+
+### Co-chair:
+- Yiyu Cai, Associate Professor, Nanyang Technological University, Singapore
+- Baohui Zhang, Professor, Dean, School of Education, Shaanxi Normal University, China
+- Jianzhong Zhou, Director, Science Popularization and Education Research Support Center, Chinese Academy of Sciences,China
+- Manabu Sumida, Professor,Secretary General of Japan Science Education Association, Japan
+- Haiguang Fang, Professor, Capital Normal University, China
+- Jinbao Zhang,, Associate Professor, Beijing Normal University, China
+
+## 6. Conference Registration
+
+Due to the impact of the epidemic, this conference will be conducted online. If you are interested in attending the conference, please fill in the registration information. For mre detailed information about how to participant, please visit the website and Wechat public account of College of Education, Shaanxi Normal University.
+
+## 7. Contact information
+
+- Dr. Aslam：15667033013;E-mail: sarfrazaslam@qq.com
+- Mr. Pan Tuo (doctoral student):15686756860，E-mail: tuopan031@126.com
+- Miss Jingjie Liu(Master student):17865329748，E-mail: 1370895697@qq.com
+- Miss Shuzhen Yu:15901601057，E-mail:yushuzhen0721@163.com
+- Prof. Baohui Zhang:E-mail: baohui.zhang@snnu.edu.cn
+- Submission and consult mailbox: IFAISE2020@163.com
