@@ -11,16 +11,17 @@ enableRobotsTXT = true
 defaultContentLanguageInSubdir = true
 
 
-
 [languages]
   [languages.zh]
     title = "IFAISE2020"
     weight = 2
     LanguageName = "中文"
+    Copyright = "陕西师范大学"
   [languages.en]
     title = "IFAISE2020"
     weight = 1
     LanguageName = "English"
+    Copyright = "Shaanxi Normal University"
     [languages.en.params]
       linkedin = "https://linkedin.com/whoever"
 

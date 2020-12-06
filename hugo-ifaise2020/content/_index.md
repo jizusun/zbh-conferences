@@ -16,31 +16,24 @@ Artificial intelligence integrates a series of advanced technologies, and brings
 
 ## 2.Main Foci
 
-1. Relevant topics for this forum include, but are not limited to.
-2. Opportunities and Challenges of Artificial Intelligence-Enabled Education
-3. Big Data and Artificial Intelligence in Education
-4. Artificial Intelligence and Future Education
-5. Learning Analyzing Technology to Improve Educational Practices
-6. Theory and Practice of STEM Education
-7. International Comparative Study of STEM Education
-8. STEM Education and Maker Education
-9. STEM Education and Future Education
+Relevant topics for this forum include, but are not limited to.
+- Opportunities and Challenges of Artificial Intelligence-Enabled Education
+- Big Data and Artificial Intelligence in Education
+- Artificial Intelligence and Future Education
+- Learning Analyzing Technology to Improve Educational Practices
+- Theory and Practice of STEM Education
+- International Comparative Study of STEM Education
+- STEM Education and Maker Education
+- STEM Education and Future Education
+
 
 ## 3. Conference Organizers
 
-### Conference organizer
-
-- Shaanxi Normal University, China
-
-### Co-organizer
-
-- School of Education, Shaanxi Normal University, China
-- International Council of Associations for Science Education
-- Research Support Center for Popular Science and Education, Chinese Academy of Sciences (CAS)
-
-### Conference Sponsor
-
-- The Education Foundation of Kuan Cheng Wang
+- Conference organizer: Shaanxi Normal University, China
+- Co-organizer: School of Education, Shaanxi Normal University, China
+- Co-organizer: International Council of Associations for Science Education
+- Co-organizer:Research Support Center for Popular Science and Education, Chinese Academy of Sciences (CAS)
+- Conference Sponsor: The Education Foundation of Kuan Cheng Wang
 
 ## 4. Conference proceeding
 
