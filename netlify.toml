@@ -12,6 +12,7 @@ command = "hugo --gc -b https://ifaise2020.edtechstar.com/"
 HUGO_VERSION = "0.79.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+HUGO_GOOGLEANALYTICS = "UA-38782026-7"
 
 
 [context.split1.environment]
