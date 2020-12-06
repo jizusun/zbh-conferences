@@ -1,9 +1,9 @@
 <footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3 w-40" href="{{ .Site.BaseURL }}" >
+  <a class="f4 fw4 hover-white no-underline white-70 dib-ns pv2 ph3 w-100 w-40-ns" href="{{ .Site.BaseURL }}" >
     &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
   </a>
-  <div class="f4 fw4 white-70 pv2 ph3 fl w-60 tr"> 
+  <div class="f4 fw4 white-70 pv2 ph3 fl w-100 w-60-ns tr"> 
     {{ with .Site.Params.madewith | default .Site.Title }} {{ . | safeHTML }} {{ end }}
   </div>
   <div>{{ partial "social-follow.html" . }}</div>
