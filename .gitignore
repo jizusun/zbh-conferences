@@ -10,3 +10,5 @@
 *.swf
 Thumbs.db
 PHOTO
+
+.DS_Store
