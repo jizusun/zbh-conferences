@@ -1,5 +1,5 @@
 ---
-title: "The International Forum of Artificial Intelligence and STEM Education Online (IFAISE2020)"
+title: "The International Forum of Artificial Intelligence and STEM Education Online"
 featured_image: "/images/banner.jpg"
 description: "Xi'an China, Dec 26, 2020"
 ---
