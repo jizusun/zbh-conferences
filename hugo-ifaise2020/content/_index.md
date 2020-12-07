@@ -2,7 +2,6 @@
 title: The International Forum of Artificial Intelligence and STEM Education
 featured_image: "/images/banner.jpg"
 description: Xi'an China, Dec 26, 2020
-draft: true
 
 ---
 The International Forum of Artificial Intelligence and STEM Education Online (IFAISE2020) was funded by the Education Foundation of Wang Kuancheng , sponsored by Shaanxi Normal University, co-organized by the International Council of Associations of Science Education (ICASE),School of Education, Shaanxi Normal University, and Science Popularization and Education Research Support Center, Chinese Academy of Sciences. We hope IFAISE 2020 (Xi’an) can be a good platform for international science education scholars to share their ideas, experiences, strategies to address challenges for science education, Artificial intelligence-enabled Education and STEM education.
