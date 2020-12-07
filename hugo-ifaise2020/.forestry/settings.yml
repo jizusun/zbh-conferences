@@ -8,7 +8,7 @@ sections:
   path: hugo-ifaise2020/config.toml
   label: config
   match: "**/*"
-  read_only: true
+  read_only: false
 - type: directory
   path: hugo-ifaise2020/content
   label: Pages
