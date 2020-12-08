@@ -19,7 +19,7 @@ Artificial intelligence (AI) integrates a series of advanced technologies, and b
 > "Explore new education models such as STEAM education and maker education".
 
 As in some places in other parts of the world, STEM has raised the interests of science and technology educators in China. Significant progress has been made in educational practice, theoretical research and the educational policy of STEM education. However, we are still facing many challenges in the practice of STEM education, especially when we can apply many AI technologies in education. Therefore, this international forum aims to enhance international collaboration and discuss the development, problems and challenges in science and technology education, STEM education, and Artificial intelligence-enabled education.
-## 2.Main Foci
+## 2. Main Foci
 
 Relevant topics for this forum include, but are not limited to:
 
@@ -45,7 +45,7 @@ Relevant topics for this forum include, but are not limited to:
 
 **Conference Sponsor**: The Education Foundation of Wang Kuan Cheng (The project is supported by the Ministry of Education, China)
 
-## 4. Conference proceeding
+## 4. Conference Proceeding
 
 ### Important deadlines (all is Beijing time):
 
@@ -60,7 +60,7 @@ Relevant topics for this forum include, but are not limited to:
 
 Papers that have been accepted will be included in a conference proceeding(communicating with the publisher). And Papers of high quality will be recommended to Chinese and English journals
 
-## 5. Conference participants
+## 5. Conference Participants
 
 Participants include but to limited to representatives worldwide who are on the conference organizing committees, whose proposals are accepted, and educators and researchers in the areas of Artificial Intelligence and STEM Education, educational policymakers, and teachers of relevant fields.   
 
@@ -101,7 +101,7 @@ Participants include but to limited to representatives worldwide who are on the 
 
 Due to the COVID 19 pandemic, this conference will be conducted purely online. If you are interested in attending the conference, please fill in the registration form. For more detailed information about how to participate, please visit the conference websites and the WeChat public account of the School of Education, Shaanxi Normal University.
 
-## 9. Contact information 
+## 9. Contact Information 
 - Dr. SARFRAZ Aslam :15667033013, E-mail: sarfrazaslam@qq.com
 - Mr. TUO Pan (doctoral student):15686756860, E-mail: tuopan031@126.com
 - Ms. ZHAO Lu,18911490934, luzhao89@casisd.cn 
