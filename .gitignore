@@ -14,3 +14,7 @@ PHOTO
 .DS_Store
 
 public
+
+!hugo-ifaise2020/static/**/*.docx
+!hugo-ifaise2020/static/**/*.doc
+!hugo-ifaise2020/static/**/*.pdf

@@ -6,44 +6,30 @@ description: "The International Forum of Artificial Intelligence and STEM Educat
 # type: page
 menu: main
 ---
+## International Committees(to be updated)
 
-
-## Co-chair
 - Yiyu Cai, Associate Professor, Nanyang Technological University, Singapore
-- Baohui Zhang, Professor, Dean, School of Education, Shaanxi Normal University, China
-- Jianzhong Zhou, Director, Science Popularization and Education Research Support Center, Chinese Academy of Sciences,China
-- Manabu Sumida, Professor,Secretary General of Japan Science Education Association, Japan
-- Haiguang Fang, Professor, Capital Normal University, China
-- Jinbao Zhang,, Associate Professor, Beijing Normal University, China
+- Manabu Sumida, Professor, Secretary-General of Japan Society for Science Education, Japan
+- Virgilio U. Manzano, Professor, Dean, Graduate School and Advanced Studies of the Urdaneta City University Philippines
+- Eric Hamilton, Professor, Pepperdine University, USA
+- Bulent Cavas, Professor, Dokuz Eylul University, Turkey
+- Declan Kennedy, Senior Lecturer in Science Education, University College Cork, Ireland
+- Manuel Filipe Pereira Cunha Martins Costa, Professor, Universidade do Minho, Campus de Gualtar Braga, Portugal
+- Teresa J. Kennedy, Professor, The University of Texas at Tyler, USA
+- Sue Dale Tunnicliffe, Reader in Science Education, Institute of Education, University College London, London, UK
 
-## Internatioanl Committees
-- To be finished
+## Local Committees(to be updated)
 
-## Local Committees
-- To be finished
-
-## Program Committee
-- Shaobo.Li	School of Education,Shaanxi Normal University,Xian
-- Fanjie Liu	School of Education,Shaanxi Normal University,Xian
-- Lu Zhang		School of Education,Shaanxi Normal University,Xian
-- Shuxin Zhang	School of Education,Shaanxi Normal University,Xian
-
-## Proceeding Editing Committee
-- Baohui Zhang	School of Education,Shaanxi Normal University,Xian
-- Aalam Sarfraz	School of Education,Shaanxi Normal University,Xian
-- Jinjie Liu		School of Education,Shaanxi Normal University,Xian
-- Jianghao Xu	School of Education,Shaanxi Normal University,Xian
-- Qiuping Liu	School of Education,Shaanxi Normal University,Xian
-- Wenhan Jin	School of Education,Shaanxi Normal University,Xian
-
-## Financial and Activity Committee
-- Yan Sun		School of Education,Shaanxi Normal University,Xian
-- Shuzhen Yu	School of Education,Shaanxi Normal University,Xian
-- Shuang Xiang	School of Education,Shaanxi Normal University,Xian
-- Yanqing Wu	School of Education,Shaanxi Normal University,Xian
-
-## Publicity Committee
-- Xiaofei Ruan	School of Education,Shaanxi Normal University,Xian
-- Mei Yang	    Wuhan City Polytechnic
-- Pan Tuo	    School of Education,Shaanxi Normal University,Xian
-- Ping Lu	    School of Education,Shaanxi Normal University,Xian
+- ZHANG BaoHui, Professor, former Dean, School of Education, Shaanxi Normal University, Xi’an, China
+- ZHOU JianZhong, Director, Science Popularization and Education Research Support Center, Chinese Academy of Sciences, Beijing, China
+- WANG Su, National Institute of Education Sciences, China
+- FANG HaiGuang, Professor, Capital Normal University, Beijing, China
+- ZHANG JinBao, Associate Professor, Beijing Normal University, Beijing, China
+- ZHOU HongXia, deputy direct, Education Development Center, Beijing Academy of Educational Sciences, Beijing, China
+- FU GangShan, Professor, School of Education, Shaanxi Normal University, Xi’an, China
+- NIE Yong, Professor, School of Education, Shaanxi Normal University, Xi’an, China
+- QIN Jian, Associate Professor, Shaanxi Normal University, Xi’an, China
+- SONG Yi, Associate Professor, Nanjing Xiaozhuang University, Nanjing, China
+- YANG Mei, Associate Professor, Wuhan City Polytechnic, Wuhan, China
+- HWANG Gwo-jen, Professor, National Taiwan University of Science and Technology, Taiwan, China
+- WEI Bing, Associate Professor, University of Macau, China
