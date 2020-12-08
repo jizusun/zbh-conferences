@@ -25,7 +25,7 @@ defaultContentLanguageInSubdir = true
     Copyright = "陕西师范大学"
     [languages.zh.params]
       description = "中国西安, 2020年12月26日"
-      madewith = "❤️ 使用 Hugo, Netlify, Cloudflare, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a> 和 <a class='white-70' href='/admin'>Forestry</a> 创作 "
+      madewith = "❤️ 使用 Hugo, <a class='white-70' href='https://app.netlify.com/sites/ifaise2020/deploys'>Netlify</a>, Cloudflare, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a> 和 <a class='white-70' href='/admin'>Forestry</a> 创作 "
   [languages.en]
     title = "IFAISE2020"
     weight = 1
@@ -33,7 +33,7 @@ defaultContentLanguageInSubdir = true
     Copyright = "Shaanxi Normal University"
     [languages.en.params]
       description = "Xi'an China, Dec 26, 2020"
-      madewith = "❤️ Made with Hugo, Netlify, Cloudflare, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a>, and  <a class='white-70' href='/admin'>Forestry</a>"
+      madewith = "❤️ Made with Hugo, <a class='white-70' href='https://app.netlify.com/sites/ifaise2020/deploys'>Netlify</a>, Cloudflare, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a>, and  <a class='white-70' href='/admin'>Forestry</a>"
 
 
 [sitemap]
