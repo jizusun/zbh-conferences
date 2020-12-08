@@ -27,7 +27,7 @@ enableGitInfo = true
     Copyright = "Shaanxi Normal University"
     [languages.en.params]
       description = "Xi'an China, Dec 26, 2020"
-      madewith = "❤️ Made with Hugo, <a class='white-70' href='https://app.netlify.com/sites/ifaise2020/deploys'>Netlify</a>, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a>, and  <a class='white-70' href='/admin'>Forestry</a>"
+      madewith = "❤️ Made with Hugo, <a class='white-70' href='https://app.netlify.com/sites/ifaise2020/deploys'>Netlify</a>, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a>, and  <a class='white-70' href='/admin'>Forestry</a> <img src='https://api.netlify.com/api/v1/badges/4634a633-c8fc-4160-9a8c-88c9c8d4240a/deploy-status'/></a> "
   [languages.zh]
     title = "IFAISE2020"
     weight = 2
