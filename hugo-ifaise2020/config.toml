@@ -27,7 +27,7 @@ enableGitInfo = true
     Copyright = "Shaanxi Normal University"
     [languages.en.params]
       description = "Xi'an China, Dec 26, 2020"
-      madewith = "❤️ Made with Hugo, <a class='white-70' href='https://app.netlify.com/sites/ifaise2020/deploys'>Netlify</a>, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a>, and  <a class='white-70' href='/admin'>Forestry</a> <img src='https://api.netlify.com/api/v1/badges/4634a633-c8fc-4160-9a8c-88c9c8d4240a/deploy-status'/></a> "
+      madewith = "❤️ Made with Hugo, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a>, and <a class='white-70' href='/admin'>Forestry</a>"
   [languages.zh]
     title = "IFAISE2020"
     weight = 2
@@ -35,7 +35,7 @@ enableGitInfo = true
     Copyright = "陕西师范大学"
     [languages.zh.params]
       description = "中国西安, 2020年12月26日"
-      madewith = "❤️ 使用 Hugo, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a> 和 <a class='white-70' href='/admin'>Forestry</a> 创作  <a href='https://app.netlify.com/sites/ifaise2020/deploys'><img src='https://api.netlify.com/api/v1/badges/4634a633-c8fc-4160-9a8c-88c9c8d4240a/deploy-status'/></a> "
+      madewith = "❤️ 使用 Hugo, <a class='white-70' href='https://github.com/jizusun/zbh-conferences'>GitHub</a> 和 <a class='white-70' href='/admin'>Forestry</a> 创作"
 
 [sitemap]
   changefreq = "monthly"
@@ -61,3 +61,4 @@ enableGitInfo = true
   background_color_class = "bg-black"
   featured_image = "/images/banner.jpg"
   recent_posts_number = 2
+  netlify_badge = "<img src='https://api.netlify.com/api/v1/badges/4634a633-c8fc-4160-9a8c-88c9c8d4240a/deploy-status'/></a> "

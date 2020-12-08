@@ -5,8 +5,10 @@
   </a>
   <div class="f4 fw4 white-70 pv2 ph3 fl w-100 w-70-ns tr"> 
     {{ with .Site.Params.madewith | default .Site.Title }} {{ . | safeHTML }} {{ end }}
+    {{ with .Site.Params.netlify_badge | default .Site.Title }} {{ . | safeHTML }} {{ end }}
   </div>
   
+
     {{/* <div class="dib-ns pv2">
         <script data-cfbadgetype="g" data-cfbadgeskin="gray" type="text/javascript">
         //<![CDATA[
