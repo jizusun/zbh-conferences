@@ -1,7 +1,12 @@
 {{ define "main" }}
+
+
   <article class="flex-l flex-wrap f4 lh-copy pa3 pa4-ns w-100 w-70-ns center">
 
-     <aside class="w-30-l mt4-l">
+    <aside class="w-30-l ">
+      <p class="f5 b mb3">
+        {{ i18n "lastUpdated" }}:  <br> {{ .Lastmod.Format "January 2, 2006 15:04" }}
+      </p>
       {{- partial "menu-contextual.html" . -}}
     </aside>
     
