@@ -2,6 +2,7 @@
 title: The International Forum of Artificial Intelligence and STEM Education
 featured_image: "/images/banner.jpg"
 description: Xi'an China, Dec 26, 2020
+toc: true 
 
 ---
 The International Forum of Artificial Intelligence and STEM Education (IFAISE2020, Online conference) will be held on **December 26th, 2020**. This forum is funded by the Education Foundation of Wang Kuancheng, supported by the Ministry of Education in China. It will be hosted by the School of Education, Shaanxi Normal University, Xi’an, China. Shaanxi Normal University is one of the six normal universities that are directly affiliated to the Ministry of Education in China, and Xi’an is a famous historical city, which is the starting point of the ancient “silk road”, and where people can see the terracotta warriors and horses. The conference is co-organized by the International Council of Associations for Science Education (ICASE, http://www.icaseonline.net ), Shaanxi Normal University (http://english.snnu.edu.cn ), and Science Popularization and Education Research Support Center, Chinese Academy of Sciences (http://www.casisd.cn/ ). We hope IFAISE 2020 (Xi’an) can be a good platform for international science education scholars to share their ideas, experiences, strategies to address opportunities, challenges, especially solutions for science education, Artificial intelligence-enabled Education and STEM education. As for technology-supported science education, the presented study raises more questions than it provides answers.
@@ -46,9 +47,7 @@ Relevant topics for this forum include, but are not limited to:
 
 ## 4. Conference proceeding
 
-### Important deadlines
-
-**Important deadlines** (all is Beijing time):
+### Important deadlines (all is Beijing time):
 
 1)	Conference abstracts are due by **5 pm on Dec.18, 2020**. The deadline for notification of acceptance is **5 pm, Dec. 20, 2020**. The deadline for the full paper submission is January. 31, 2021 (if a paper is intended to be included in the conference proceeding). We are seeking publishers to publish our conference proceedings and will recommend selected papers to high quality journals.
 2)	The conference registration is **free**, but we give priority to those who have submitted their proposals. Please fill and send the registration form below to IFAISE2020@163.com by **5 pm, Dec. 21, 2020**.

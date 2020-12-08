@@ -1,11 +1,11 @@
 ---
 title: 邀请报告
 featured_image: "/images/banner.jpg"
-description: "The International Forum of Artificial Intelligence and STEM Education Online"
+description: "人工智能与STEM教育线上国际研讨会"
 # omit_header_text: true
 # type: page
 menu: main
 ---
 
 
-To be finished
+待更新

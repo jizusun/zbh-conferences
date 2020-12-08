@@ -10,6 +10,12 @@ googleAnalytics = ""
 enableRobotsTXT = true
 defaultContentLanguageInSubdir = true
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2
+
 
 [languages]
   [languages.zh]
