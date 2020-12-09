@@ -18,8 +18,8 @@ menu: main
 
 届时将另行通知。
 
-- [IFAISE2020参会确认回执(英文)](/attachments/IFAISE2020_Registration_Form_for_Participants_Chinese.docx)
-- [IFAISE2020参会确认回执(中文)](/attachments/IFAISE2020_Registration_Form_for_Participants_English.docx)
+- [IFAISE2020参会确认回执(中文)](/attachments/IFAISE2020_Registration_Form_for_Participants_Chinese.docx)
+- [IFAISE2020参会确认回执(英文)](/attachments/IFAISE2020_Registration_Form_for_Participants_English.docx)
 - [ZOOM会议系统操作手册(中文)](/attachments/User_manual_for_ZOOM_Chinese.pdf)
 - [ZOOM会议系统操作手册(英文)](/attachments/User_manual_for_ZOOM_English.pdf)
 
