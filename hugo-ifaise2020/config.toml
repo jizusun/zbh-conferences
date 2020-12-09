@@ -13,6 +13,8 @@ enableGitInfo = true
 
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe= true
   [markup.tableOfContents]
     endLevel = 2
     ordered = false
