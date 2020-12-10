@@ -30,6 +30,7 @@ menu: main
 - ZHANG JinBao, Associate Professor, Beijing Normal University, Beijing, China
 - ZHOU HongXia, deputy director, Education Development Center, Beijing Academy of Educational Sciences, Beijing, China
 - FU GangShan, Professor, School of Education, Shaanxi Normal University, Xi’an, China
+- HU WeiPing, Direct, Key Laboratory of Modern Teaching Technology, Ministry of Education, Xi’an, China
 - NIE Yong, Professor, School of Education, Shaanxi Normal University, Xi’an, China
 - QIN Jian, Associate Professor, Shaanxi Normal University, Xi’an, China
 - SONG Yi, Associate Professor, Nanjing Xiaozhuang University, Nanjing, China
