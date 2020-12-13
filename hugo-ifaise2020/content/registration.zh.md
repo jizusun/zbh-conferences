@@ -19,7 +19,7 @@ menu:
 
 欢迎投稿及参会的老师们同学们加入本次会议QQ交流群
 
-<img src="/qq-group-zh.png" style="width: 15rem" />
+<img src="/images/qq-group-zh.png" style="width: 15rem" />
 
 * [IFAISE2020参会确认回执(中文)](/attachments/IFAISE2020_Registration_Form_for_Participants_Chinese.docx)
 * [IFAISE2020参会确认回执(英文)](/attachments/IFAISE2020_Registration_Form_for_Participants_English.docx)
