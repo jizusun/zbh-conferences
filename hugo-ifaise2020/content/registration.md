@@ -7,7 +7,13 @@ description: "The International Forum of Artificial Intelligence and STEM Educat
 menu: main
 ---
 
-Due to the COVID 19 pandemic, this conference will be conducted purely online. If you are interested in attending the conference, please fill in the registration form. For more detailed information about how to participate, please visit the conference websites and the WeChat public account of the School of Education, Shaanxi Normal University.
+Due to the COVID 19 pandemic, this conference will be conducted purely online. If you are interested in attending the conference, please fill in the registration form. For more detailed information about how to participate, please visit
+
+
+- the conference websites
+- the WeChat public account of the School of Education, Shaanxi Normal University 
+- the website of Prof. Baozhang ZHANG: http://zhangbaohui.snnu.edu.cn/ 
+
 
 
 - [IFAISE2020 registration form (Chinese)](/attachments/IFAISE2020_Registration_Form_for_Participants_Chinese.docx)
