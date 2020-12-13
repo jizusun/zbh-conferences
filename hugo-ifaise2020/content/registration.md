@@ -15,6 +15,12 @@ Due to the COVID 19 pandemic, this conference will be conducted purely online. I
 - [User manual for ZOOM system(Chinese)](/attachments/User_manual_for_ZOOM_Chinese.pdf)
 - [User manual for ZOOM system(English)](/attachments/User_manual_for_ZOOM_English.pdf)
 
+
+Welcome to join QQ group for this conference. 
+
+<img src="/images/qq-group-en.png" style="width: 10rem" />
+
+
 ## FAQ
 
 
