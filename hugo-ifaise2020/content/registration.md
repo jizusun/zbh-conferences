@@ -12,7 +12,9 @@ Due to the COVID 19 pandemic, this conference will be conducted purely online. I
 
 - the conference websites
 - the WeChat public account of the School of Education, Shaanxi Normal University 
-- the website of Prof. Baozhang ZHANG: http://zhangbaohui.snnu.edu.cn/ 
+- the website of Prof. Baozhang ZHANG: http://zhangbaohui.snnu.edu.cn/ and WeChat public account
+
+<img src="/images/wechat-zbh.png" style="width: 10rem" />
 
 
 
