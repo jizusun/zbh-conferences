@@ -18,7 +18,7 @@ Due to the COVID 19 pandemic, this conference will be conducted purely online. I
 
 Welcome to join QQ group for this conference. 
 
-<img src="/images/qq-group-en.png" style="width: 10rem" />
+<img src="/images/qq-group-en.jpg" style="width: 10rem" />
 
 
 ## FAQ
