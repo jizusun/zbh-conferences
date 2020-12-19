@@ -10,5 +10,5 @@ menu: main
 
 To be updated
 
-<img src="/images/program_en.jpg" style="width: 60rem" />
+<img src="/images/program_en2.jpg" style="width: 60rem" />
 
