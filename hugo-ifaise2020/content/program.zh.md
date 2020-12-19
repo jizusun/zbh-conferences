@@ -10,7 +10,7 @@ menu: main
 
 暂定
 
-<img src="/images/program_cn.jpg" style="width: 10rem" />
+<img src="/images/program_cn.jpg" style="width: 60rem" />
 
 
 |             	|     时间           	|     内容                                                	|     主持人    	|
