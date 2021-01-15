@@ -40,7 +40,11 @@ Relevant topics for this forum include, but are not limited to:
 **Co-organizers**:
 
 - Shaanxi Normal University, China
-<!-- - International Council of Associations for Science Education (ICASE) -->
 - Science Popularization and Education Research Support Center, Chinese Academy of Sciences
 
 **Conference Sponsor**: The Education Foundation of Wang Kuan Cheng (The project is supported by the Ministry of Education, China)
+
+
+## 4. Program book
+
+[Click to download the program book of IFAISE2020](/attachments/IFAISE2020_Program_Book_English.pdf)
