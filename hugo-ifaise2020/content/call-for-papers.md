@@ -8,9 +8,11 @@ menu: main
 ---
 
 **Important deadlines** (all is Beijing time):
-1)	Conference abstracts are due by 5 pm on Dec.18, 2020. The deadline for notification of acceptance is 5 pm, Dec. 20, 2020. The deadline for the full paper submission is January. 31, 2021 (if a paper is intended to be included in the conference proceeding).
-2)	The conference registration is free, but we give priority to those who have submitted their proposals. Please fill and send the registration form below to IFAISE2020@163.com by 5 pm, Dec. 21, 2020.
-3)	Conference mailbox: IFAISE2020@163.com, please give a clear indication about the intention of your message in your email subject area to avoid delay.
+
+- Deadline for full paper: January 31, 2021
+- The deadline for papers has been delayed. Please submit your full paper to the conference mailbox IFAISE2020@163.com before January 31, 2021.
+- Please finish your paper by January 31st,2021. The organizing committees will have a review and select the best paper from the submitted full papers
+
 
 **Requirements for conference proposals/abstracts, papers**
 
