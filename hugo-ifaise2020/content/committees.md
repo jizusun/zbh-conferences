@@ -25,9 +25,11 @@ menu: main
 - ZHOU JianZhong, Director, Science Popularization and Education Research Support Center, Chinese Academy of Sciences, Beijing, China
 - WANG Su, Director, Research Center of STEM Education, National Institute of Education Sciences, China
 - HWANG Gwo-jen, Professor, National Taiwan University of Science and Technology, Taiwan, China
+- YU Shengquan，Professor, Beijing Normal University Advanced Innovation Center for Future Education, Beijing, China
 - WEI Bing, Associate Professor, University of Macau, China
 - FANG HaiGuang, Professor, Capital Normal University, Beijing, China
 - ZHANG JinBao, Associate Professor, Beijing Normal University, Beijing, China
+- LIU Jing, Associate Researcher, School of Humanities and Social Sciences, Beijing Institute of Technology, Beijing, China
 - ZHOU HongXia, deputy director, Education Development Center, Beijing Academy of Educational Sciences, Beijing, China
 - FU GangShan, Professor, School of Education, Shaanxi Normal University, Xi’an, China
 - HU WeiPing, Direct, Key Laboratory of Modern Teaching Technology, Ministry of Education, Xi’an, China
