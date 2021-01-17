@@ -1,7 +1,11 @@
 #!/usr/bin/env sh
 
+# docker run -ti --rm -v `pwd`:/data bios/docker-httrack \
+#   sh -c 'httrack "https://www.domain.tld" -v --robots=0'
+
+
 httrack https://ifaise2020.edtechstar.com/en/ https://ifaise2020.edtechstar.com/zh/ \
-    -B -T1 -v -N3
+    -B  -N3 -T2 -v
     # "%h/%p-%n.%t"
 
 
