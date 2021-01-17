@@ -47,4 +47,4 @@ Relevant topics for this forum include, but are not limited to:
 
 ## 4. Program book
 
-[Click to download the program book of IFAISE2020](/attachments/IFAISE2020_Program_Book_English.pdf)
+[Click to download the program book of IFAISE2020](/attachments/IFAISE2020_Program_Book.pdf)
