@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.edtechstar.com	TRUE	/	FALSE	1999999999	__cfduid	d7e5409a093d9155b2e5f2185a24ca91a1610874967
+ifaise2020.edtechstar.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
