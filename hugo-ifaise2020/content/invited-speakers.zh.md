@@ -66,34 +66,36 @@ menu: main
     <tr>
         <td class="tg-0lax"> 
             <img class="avatar" src="/people/baohui-zhang.png"/>
-            <span class="name"> Prof. ZHANG BaiHui </span>
-            Shaanxi Normal University
-            President of ICASE
+            <span class="name"> 张宝辉教授 </span>
+            陕西师范大学
+            国际科学教育学会理事会主席
         </td>
         <td class="tg-0lax" colspan="2"> 
             <img class="avatar" src="/people/manuel-costa.png"/>
-            <span class="name">Prof. Manuel F. M. Costa</span>
-            University of Minho
-            Portugal
+            <span class="name">曼纽尔·科斯塔教授 </span>
+            葡萄牙米尼奥大学
+            欧洲光学学会
+            科学顾问委员会副主席
         </td>
         <td class="tg-0lax"> 
             <img class="avatar" src="/people/bulent-cavas.png"/>
-            <span class="name">Prof. Manuel F. M. Costa</span>
-            University of Minho
-            Portugal
+            <span class="name"> 布伦特·卡瓦斯教授 </span>
+            土耳其九月九大学
         </td>
     </tr>
     <tr>
         <td  class="tg-0lax">
             <img class="avatar" src="/people/steven-sexton.png"/>
-            <span class="name">Dr. Steven Sexton </span>
-            University of Otago,
-            New Zealand
+            <span class="name">史蒂芬·塞克斯顿博士 </span>
+                新西兰奥塔哥大学
+                教育学院教师教育专业负责人
         </td>
         <td  class="tg-0lax">
             <img class="avatar" src="/people/penghe-chen.png"/>
-            <span class="name">Dr. CHEN Penghe</span>
-            Beijing Normal University
+            <span class="name"> 陈鹏鹤博士 </span>
+            北京师范大学
+            未来教育高精尖创新中心
+            大数据研究员
         </td>
     </tr>
 </table>
