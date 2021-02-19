@@ -1,0 +1,37 @@
+version: "3.7"
+services:
+  hugo:
+    image: klakegg/hugo:ext-alpine
+    entrypoint: 
+      - hugo-official
+      - serve
+      - --bind
+      - 0.0.0.0
+      - -s
+      - /src/hugo-ifaise2020
+      - --disableLiveReload
+    volumes:
+      - ..:/src
+    ports:
+      - "1313:1313"
+  httrack:
+    image: bios/docker-httrack
+    volumes:
+      - ./httrack:/data
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    command:
+      - httrack 
+      - http://hugo:1313/en/
+      - -B
+      - -N3
+      - -v
+      - -s0
+    depends_on: 
+      - hugo
+
+# httrack https://ifaise2020.edtechstar.com/en/ https://ifaise2020.edtechstar.com/zh/ \
+ #   -B -T1 -v -N3
+
+# docker run -ti --rm -v `pwd`:/data bios/docker-httrack \
+  #sh -c 'httrack "https://www.domain.tld" -v --robots=0'
