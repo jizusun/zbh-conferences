@@ -20,9 +20,9 @@ menu: main
 2. 中英论文摘要及全文格式要求和文件模板请参见如下文件
 3. 必须提交未公开发表过的研究
 
-- [IFAISE2020论文摘要模板（中文论文）](/attachments/IFAISE2020_Template_for_Chinese_paper_abstract.docx)
-- [IFAISE2020论文摘要模板（英文论文）](/attachments/IFAISE2020_Template_for_English_paper_abstract.doc)
-- [IFAISE2020论文全文模板（中文论文）](/attachments/IFAISE2020_Template_for_Chinese_paper_full_paper.doc)
-- [IFAISE2020论文全文模板（英文论文）](/attachments/IFAISE2020_Template_for_English_paper_full_paper.doc)
+- [IFAISE2020论文摘要模板（中文论文）](attachments/IFAISE2020_Template_for_Chinese_paper_abstract.docx)
+- [IFAISE2020论文摘要模板（英文论文）](attachments/IFAISE2020_Template_for_English_paper_abstract.doc)
+- [IFAISE2020论文全文模板（中文论文）](attachments/IFAISE2020_Template_for_Chinese_paper_full_paper.doc)
+- [IFAISE2020论文全文模板（英文论文）](attachments/IFAISE2020_Template_for_English_paper_full_paper.doc)
 
 会议接收论文会收录在会议论文集中（正与出版社沟通中），并且优秀的会议论文会推荐到中英期刊发表。

@@ -38,4 +38,4 @@ toc: true
 
 请点击上方的导航条，进入各子页面查看
 
-[点击下载人工智能与STEM教育线上国际研讨会会议手册](/attachments/IFAISE2020_Program_Book.pdf)
+[点击下载人工智能与STEM教育线上国际研讨会会议手册](attachments/IFAISE2020_Program_Book.pdf)

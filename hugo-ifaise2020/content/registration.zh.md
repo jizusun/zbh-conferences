@@ -21,10 +21,10 @@ menu:
 
 <img src="/images/qq-group-zh.png" style="width: 15rem" />
 
-* [IFAISE2020参会确认回执(中文)](/attachments/IFAISE2020_Registration_Form_for_Participants_Chinese.docx)
-* [IFAISE2020参会确认回执(英文)](/attachments/IFAISE2020_Registration_Form_for_Participants_English.docx)
-* [ZOOM会议系统操作手册(中文)](/attachments/User_manual_for_ZOOM_Chinese.pdf)
-* [ZOOM会议系统操作手册(英文)](/attachments/User_manual_for_ZOOM_English.pdf)
+* [IFAISE2020参会确认回执(中文)](attachments/IFAISE2020_Registration_Form_for_Participants_Chinese.docx)
+* [IFAISE2020参会确认回执(英文)](attachments/IFAISE2020_Registration_Form_for_Participants_English.docx)
+* [ZOOM会议系统操作手册(中文)](attachments/User_manual_for_ZOOM_Chinese.pdf)
+* [ZOOM会议系统操作手册(英文)](attachments/User_manual_for_ZOOM_English.pdf)
 
 ## 常见问题
 

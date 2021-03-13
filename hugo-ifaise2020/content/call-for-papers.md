@@ -22,7 +22,7 @@ menu: main
 3)	Submissions should be unpublished studies.
 Papers that have been accepted will be included in a conference proceeding(communicating with the publisher). And Papers of high quality will be recommended to Chinese and English journals
 
-- [Requirement and format for Chinese manuscript writing(for abstract)](/attachments/IFAISE2020_Template_for_Chinese_paper_abstract.docx)
-- [Requirement and format for Chinese manuscript writing(full paper)](/attachments/IFAISE2020_Template_for_Chinese_paper_full_paper.doc)
-- [Requirement and format for English manuscript writing(for abstract)](/attachments/IFAISE2020_Template_for_English_paper_abstract.doc)
-- [Requirement and format for English manuscript writing(full paper)](/attachments/IFAISE2020_Template_for_English_paper_full_paper.doc)
+- [Requirement and format for Chinese manuscript writing(for abstract)](attachments/IFAISE2020_Template_for_Chinese_paper_abstract.docx)
+- [Requirement and format for Chinese manuscript writing(full paper)](attachments/IFAISE2020_Template_for_Chinese_paper_full_paper.doc)
+- [Requirement and format for English manuscript writing(for abstract)](attachments/IFAISE2020_Template_for_English_paper_abstract.doc)
+- [Requirement and format for English manuscript writing(full paper)](attachments/IFAISE2020_Template_for_English_paper_full_paper.doc)
