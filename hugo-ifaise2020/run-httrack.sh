@@ -5,10 +5,17 @@
 
 
 URL="http://localhost:8002/ifaise2020/en/ http://localhost:8002/ifaise2020/zh/"
-# URL="https://ifaise2020.edtechstar.com/en/ https://ifaise2020.edtechstar.com/zh/"
-httrack --update $URL -N1 -v -f -K4 \
+httrack --update $URL -N1 -v -f \
     -B \
-    -O httrack-save \
+    -O httrack-local
+
+
+# URL="https://ifaise2020.edtechstar.com/en/ https://ifaise2020.edtechstar.com/zh/"
+# httrack --update $URL -N1 -v -f -K4 \
+#     -B \
+#     -O httrack-netlify\
+
+
 #    -n -N1 -T2 -v 
 #        -B     can both go up&down into the directory structure (--can-go-up-and-down)
 #        -T1    timeout 1s

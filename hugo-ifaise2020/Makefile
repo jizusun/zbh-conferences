@@ -1,9 +1,11 @@
-scrape:
-	./run-httrack.sh
 
-build-final: 
-	rm -rf ifaise2020 && HUGO_ENV="production" hugo -b "/ifaise2020/" -d ifaise2020
+build: 
+	rm -rf ifaise2020 && HUGO_ENV="production" hugo -b "http://localhost:8002/ifaise2020/" -d ifaise2020
 
-serve-final:
+serve:
 	@echo "Visit http://localhost:8002/ifaise2020/"
-	docker-compose up web
+	@echo "Visit http://localhost:8003/ifaise2020/"
+	docker-compose up 
+
+scrape: 
+	./run-httrack.sh
