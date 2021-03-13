@@ -6,7 +6,7 @@
 
 URL="http://localhost:8002/ifaise2020/en/ http://localhost:8002/ifaise2020/zh/"
 httrack --update $URL -N1 -v -f \
-    -B \
+    -B -A10000000 \
     -O httrack-local
 
 
