@@ -1,6 +1,6 @@
 ---
 title: Registration
-featured_image: "/images/banner.jpg"
+featured_image: "images/banner.jpg"
 description: "The International Forum of Artificial Intelligence and STEM Education Online"
 # omit_header_text: true
 # type: page
@@ -14,7 +14,7 @@ Due to the COVID 19 pandemic, this conference will be conducted purely online. I
 - the WeChat public account of the School of Education, Shaanxi Normal University 
 - the website of Prof. Baohui ZHANG: http://zhangbaohui.snnu.edu.cn/ and WeChat public account
 
-<img src="/images/wechat-zbh.png" style="width: 10rem" />
+<img src="images/wechat-zbh.png" style="width: 10rem" />
 
 
 
@@ -26,7 +26,7 @@ Due to the COVID 19 pandemic, this conference will be conducted purely online. I
 
 Welcome to join QQ group for this conference. 
 
-<img src="/images/qq-group-en.jpg" style="width: 10rem" />
+<img src="images/qq-group-en.jpg" style="width: 10rem" />
 
 
 ## FAQ

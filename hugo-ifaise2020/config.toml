@@ -7,11 +7,18 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
-enableRobotsTXT = true
+enableRobotsTXT = false
+uglyurls = true
 defaultContentLanguageInSubdir = true
 enableGitInfo = true
 # relativeURLs = true
 
+[outputs]
+    page = ["HTML"]
+    home = ["HTML"]
+    section = ["HTML"]
+    taxonomyTerm = ["HTML"]
+    taxonomy = ["HTML"]
 
 [markup]
   [markup.goldmark.renderer]

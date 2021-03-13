@@ -1,6 +1,6 @@
 ---
 title: 会议注册
-featured_image: "/images/banner.jpg"
+featured_image: "images/banner.jpg"
 description: 人工智能与STEM教育线上国际研讨会
 menu:
   main: {}
@@ -13,13 +13,13 @@ menu:
 * 陕西师范大学教育学院官网 [http://edu.snnu.edu.cn/](http://edu.snnu.edu.cn/) 及微信公众号
 * 张宝辉教授团队官网 [http://zhangbaohui.snnu.edu.cn/](http://zhangbaohui.snnu.edu.cn/) 及微信公众号
 
-<img src="/images/wechat-zbh.png" style="width: 10rem" />
+<img src="images/wechat-zbh.png" style="width: 10rem" />
 
 届时将另行通知。
 
 欢迎投稿及参会的老师们同学们加入本次会议QQ交流群
 
-<img src="/images/qq-group-zh.png" style="width: 15rem" />
+<img src="images/qq-group-zh.png" style="width: 15rem" />
 
 * [IFAISE2020参会确认回执(中文)](attachments/IFAISE2020_Registration_Form_for_Participants_Chinese.docx)
 * [IFAISE2020参会确认回执(英文)](attachments/IFAISE2020_Registration_Form_for_Participants_English.docx)

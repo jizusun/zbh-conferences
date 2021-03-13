@@ -1,6 +1,6 @@
 ---
 title: The International Forum of Artificial Intelligence and STEM Education
-featured_image: "/images/banner.jpg"
+featured_image: "images/banner.jpg"
 description: Xi'an China, Dec 26, 2020
 toc: true 
 

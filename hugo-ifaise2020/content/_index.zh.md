@@ -1,6 +1,6 @@
 ---
 title: 人工智能与STEM教育线上国际研讨会
-featured_image: "/images/banner.jpg"
+featured_image: "images/banner.jpg"
 description: 中国西安, 2020年12月26日
 toc: true 
 ---
