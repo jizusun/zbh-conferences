@@ -5,8 +5,9 @@
 
 
 URL="http://localhost:8002/ifaise2020/en/ http://localhost:8002/ifaise2020/zh/"
-# URL="https://ifaise2020.edtechstar.com/zh/"
+# URL="https://ifaise2020.edtechstar.com/en/ https://ifaise2020.edtechstar.com/zh/"
 httrack --update $URL -N1 -v -f -K4 \
+    -B \
     -O httrack-save \
 #    -n -N1 -T2 -v 
 #        -B     can both go up&down into the directory structure (--can-go-up-and-down)
